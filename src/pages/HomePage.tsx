@@ -112,7 +112,7 @@ const HomePage: React.FC = () => {
           </div>
           <div>
             <div className="text-3xl font-bold text-primary-600 mb-2">2</div>
-            <h3 className="font-semibold mb-2">AI Analysis</h3>
+            <h3 className="font-semibold mb-2">String Matching</h3>
             <p className="text-sm text-gray-600">
               Our system automatically extracts and matches skills
             </p>
