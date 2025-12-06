@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
 
   const handleLogout = () => {
     dispatch(logout());
-    navigate(ROUTES.LOGIN);
+    navigate(ROUTES.HOME, { replace: true });
   };
 
   return (
